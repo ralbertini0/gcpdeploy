@@ -5,6 +5,7 @@ import yfinance as yf
 import indicators as ind
 import ta
 from trading_ig import IGService
+from joblib import dump, load
 
 yf.pdr_override()
 
