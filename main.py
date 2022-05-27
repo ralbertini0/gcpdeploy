@@ -304,16 +304,16 @@ cac40['prediction'] = cac40['Daily Stock Return'].shift(-1)
 
 #
 
-model_sg = ['D:\sg_model1.joblib', 'D:\sg_model1_H.joblib', 'D:\sg_model1_L.joblib']
-model_bnp = ['D:\Bnp_model1.joblib', 'D:\Bnp_model1_H.joblib', 'D:\Bnp_model1_L.joblib']
-model_airbus = ['D:\Airbus_model1.joblib', 'D:\Airbus_model1_H.joblib', 'D:\Airbus_model1_L.joblib']
-model_sanofi = ['D:\sanofi_model1.joblib', 'D:\sanofi_model1_H.joblib', 'D:\sanofi_model1_L.joblib']
-model_bouygues = ['D:\Bouygues_model1.joblib', 'D:\Bouygues_model1_H.joblib', 'D:\Bouygues_model1_L.joblib']
+model_sg = ['sg_model1.joblib', 'sg_model1_H.joblib', 'sg_model1_L.joblib']
+model_bnp = ['Bnp_model1.joblib', 'Bnp_model1_H.joblib', 'Bnp_model1_L.joblib']
+model_airbus = ['Airbus_model1.joblib', 'Airbus_model1_H.joblib', 'Airbus_model1_L.joblib']
+model_sanofi = ['sanofi_model1.joblib', 'sanofi_model1_H.joblib', 'sanofi_model1_L.joblib']
+model_bouygues = ['Bouygues_model1.joblib', 'Bouygues_model1_H.joblib', 'Bouygues_model1_L.joblib']
 
-model_loreal = ['D:\loreal_model1.joblib', 'D:\loreal_model1_H.joblib', 'D:\loreal_model1_L.joblib']
-model_Capgemini = ['D:\Capgemini_model1.joblib', 'D:\Capgemini_model1_H.joblib', 'D:\Capgemini_model1_L.joblib']
-model_Dassault = ['D:\Dassault_model1.joblib', 'D:\Dassault_model1_H.joblib', 'D:\Dassault_model1_L.joblib']
-model_Carrefour = ['D:\Carrefour_model1.joblib', 'D:\Carrefour_model1_H.joblib', 'D:\Carrefour_model1_L.joblib']
+model_loreal = ['loreal_model1.joblib', 'loreal_model1_H.joblib', 'loreal_model1_L.joblib']
+model_Capgemini = ['Capgemini_model1.joblib', 'Capgemini_model1_H.joblib', 'Capgemini_model1_L.joblib']
+model_Dassault = ['Dassault_model1.joblib', 'Dassault_model1_H.joblib', 'Dassault_model1_L.joblib']
+model_Carrefour = ['Carrefour_model1.joblib', 'Carrefour_model1_H.joblib', 'Carrefour_model1_L.joblib']
 
 model_Atos = ['Atos_model1.joblib', 'Atos_model1_H.joblib', 'Atos_model1_L.joblib']
 model_Engie = ['Engie_model1.joblib', 'Engie_model1_H.joblib', 'Engie_model1_L.joblib']
@@ -327,38 +327,38 @@ model_Thales = ['Thales_model1.joblib', 'Thales_model1_H.joblib', 'Thales_model1
 model_VeoliaEnvironnement = ['VeoliaEnvironnement_model1.joblib', 'VeoliaEnvironnement_model1_H.joblib',
                              'VeoliaEnvironnement_model1_L.joblib']
 model_Vinci = ['Vinci_model1.joblib', 'Vinci_model1_H.joblib', 'Vinci_model1_L.joblib']
-model_AirLiquide = ['D:\AirLiquide_model1.joblib', 'D:\AirLiquide_model1_H.joblib', 'D:\AirLiquide_model1_L.joblib']
-model_Alstom = ['D:\Alstom_model1.joblib', 'D:\Alstom_model1_H.joblib', 'D:\Alstom_model1_L.joblib']
-model_Arcelor = ['D:\Arcelor_model1.joblib', 'D:\Arcelor_model1_H.joblib', 'D:\Arcelor_model1_L.joblib']
-model_AXA = ['D:\AXA_model1.joblib', 'D:\AXA_model1_H.joblib', 'D:\AXA_model1_L.joblib']
-model_CréditAgricole = ['D:\CréditAgricole_model1.joblib', 'D:\CréditAgricole_model1_H.joblib',
-                        'D:\CréditAgricole_model1_L.joblib']
-model_Danone = ['D:\Danone_model1.joblib', 'D:\Danone_model1_H.joblib', 'D:\Danone_model1_L.joblib']
-model_Essilor = ['D:\Essilor_model1.joblib', 'D:\Essilor_model1_H.joblib', 'D:\Essilor_model1_L.joblib']
-model_Hermes = ['D:\Hermes_model1.joblib', 'D:\Hermes_model1_H.joblib', 'D:\Hermes_model1_L.joblib']
-model_Kering = ['D:\Kering_model1.joblib', 'D:\Kering_model1_H.joblib', 'D:\Kering_model1_L.joblib']
-model_Legrand = ['D:\Legrand_model1.joblib', 'D:\Legrand_model1_H.joblib', 'D:\Legrand_model1_L.joblib']
-model_Loreal = ['D:\Loreal_model1.joblib', 'D:\Loreal_model1_H.joblib', 'D:\Loreal_model1_L.joblib']
-model_LVMH = ['D:\LVMH_model1.joblib', 'D:\LVMH_model1_H.joblib', 'D:\LVMH_model1_L.joblib']
-model_Michelin = ['D:\Michelin_model1.joblib', 'D:\Michelin_model1_H.joblib', 'D:\Michelin_model1_L.joblib']
-model_Orange = ['D:\Orange_model1.joblib', 'D:\Orange_model1_H.joblib', 'D:\Orange_model1_L.joblib']
+model_AirLiquide = ['AirLiquide_model1.joblib', 'AirLiquide_model1_H.joblib', 'AirLiquide_model1_L.joblib']
+model_Alstom = ['Alstom_model1.joblib', 'Alstom_model1_H.joblib', 'Alstom_model1_L.joblib']
+model_Arcelor = ['Arcelor_model1.joblib', 'Arcelor_model1_H.joblib', 'Arcelor_model1_L.joblib']
+model_AXA = ['AXA_model1.joblib', 'AXA_model1_H.joblib', 'AXA_model1_L.joblib']
+model_CréditAgricole = ['CréditAgricole_model1.joblib', 'CréditAgricole_model1_H.joblib',
+                        'CréditAgricole_model1_L.joblib']
+model_Danone = ['Danone_model1.joblib', 'Danone_model1_H.joblib', 'Danone_model1_L.joblib']
+model_Essilor = ['Essilor_model1.joblib', 'Essilor_model1_H.joblib', 'Essilor_model1_L.joblib']
+model_Hermes = ['Hermes_model1.joblib', 'Hermes_model1_H.joblib', 'Hermes_model1_L.joblib']
+model_Kering = ['Kering_model1.joblib', 'Kering_model1_H.joblib', 'Kering_model1_L.joblib']
+model_Legrand = ['Legrand_model1.joblib', 'Legrand_model1_H.joblib', 'Legrand_model1_L.joblib']
+model_Loreal = ['Loreal_model1.joblib', 'Loreal_model1_H.joblib', 'Loreal_model1_L.joblib']
+model_LVMH = ['LVMH_model1.joblib', 'LVMH_model1_H.joblib', 'LVMH_model1_L.joblib']
+model_Michelin = ['Michelin_model1.joblib', 'Michelin_model1_H.joblib', 'Michelin_model1_L.joblib']
+model_Orange = ['Orange_model1.joblib', 'Orange_model1_H.joblib', 'Orange_model1_L.joblib']
 
-model_Worldline = ['D:\Worldline_model1.joblib', 'D:\Worldline_model1_H.joblib', 'D:\Worldline_model1_L.joblib']
-model_PernodRicard = ['D:\PernodRicard_model1.joblib', 'D:\PernodRicard_model1_H.joblib',
-                      'D:\PernodRicard_model1_L.joblib']
-model_Publicis = ['D:\Publicis_model1.joblib', 'D:\Publicis_model1_H.joblib', 'D:\Publicis_model1_L.joblib']
-model_Safran = ['D:\Safran_model1.joblib', 'D:\Safran_model1_H.joblib', 'D:\Safran_model1_L.joblib']
-model_SchneiderElectric = ['D:\SchneiderElectric_model1.joblib', 'D:\SchneiderElectric_model1_H.joblib',
-                           'D:\SchneiderElectric_model1_L.joblib']
-model_Sodexo = ['D:\Sodexo_model1.joblib', 'D:\Sodexo_model1_H.joblib', 'D:\Sodexo_model1_L.joblib']
-model_Stellantis = ['D:\Stellantis_model1.joblib', 'D:\Stellantis_model1_H.joblib', 'D:\Stellantis_model1_L.joblib']
-model_Teleperformance = ['D:\Teleperformance_model1.joblib', 'D:\Teleperformance_model1_H.joblib',
-                         'D:\Teleperformance_model1_L.joblib']
-model_Total = ['D:\Total_model1.joblib', 'D:\Total_model1_H.joblib', 'D:\Total_model1_L.joblib']
-model_Vivendi = ['D:\Vivendi_model1.joblib', 'D:\Vivendi_model1_H.joblib', 'D:\Vivendi_model1_L.joblib']
-model_Unibail = [r'D:\Unibail_model1.joblib', r'D:\Unibail_model1_H.joblib', r'D:\Unibail_model1_L.joblib']
+model_Worldline = ['Worldline_model1.joblib', 'Worldline_model1_H.joblib', 'Worldline_model1_L.joblib']
+model_PernodRicard = ['PernodRicard_model1.joblib', 'PernodRicard_model1_H.joblib',
+                      'PernodRicard_model1_L.joblib']
+model_Publicis = ['Publicis_model1.joblib', 'Publicis_model1_H.joblib', 'Publicis_model1_L.joblib']
+model_Safran = ['Safran_model1.joblib', 'Safran_model1_H.joblib', 'Safran_model1_L.joblib']
+model_SchneiderElectric = ['SchneiderElectric_model1.joblib', 'SchneiderElectric_model1_H.joblib',
+                           'SchneiderElectric_model1_L.joblib']
+model_Sodexo = ['Sodexo_model1.joblib', 'Sodexo_model1_H.joblib', 'Sodexo_model1_L.joblib']
+model_Stellantis = ['Stellantis_model1.joblib', 'Stellantis_model1_H.joblib', 'Stellantis_model1_L.joblib']
+model_Teleperformance = ['Teleperformance_model1.joblib', 'Teleperformance_model1_H.joblib',
+                         'Teleperformance_model1_L.joblib']
+model_Total = ['Total_model1.joblib', 'Total_model1_H.joblib', 'Total_model1_L.joblib']
+model_Vivendi = ['Vivendi_model1.joblib', 'Vivendi_model1_H.joblib', 'Vivendi_model1_L.joblib']
+model_Unibail = [r'Unibail_model1.joblib', r'Unibail_model1_H.joblib', r'Unibail_model1_L.joblib']
 
-model_cac40 = ['D:\cac40_model1.joblib', 'D:\cac40_model1_H.joblib', 'D:\cac40_model1_L.joblib']
+model_cac40 = ['cac40_model1.joblib', 'cac40_model1_H.joblib', 'cac40_model1_L.joblib']
 
 i = 0
 #          (AirLiquide, "Air Liquide", model_AirLiquide, "EC.D.AI.CASH.IP"),
