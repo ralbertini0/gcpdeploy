@@ -2,6 +2,9 @@
 from pandas_datareader import data as pdr
 import yfinance as yf
 import indicators as ind
+
+from trading_ig import IGService
+
 yf.pdr_override()
 
 # We take all the cotation from start of cotation until 10/17/2020.
