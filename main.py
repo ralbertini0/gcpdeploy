@@ -2,7 +2,7 @@
 from pandas_datareader import data as pdr
 import yfinance as yf
 import indicators as ind
-
+import ta
 from trading_ig import IGService
 
 yf.pdr_override()
