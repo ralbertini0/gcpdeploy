@@ -574,20 +574,20 @@ for elemento in lscac:
 
     #     try:
 
-    #         if (close_pred[0] < 0)&(cdown/(cup+cdown) <= 0.5):
-    #             print(close_pred, "DOWN")
-    #             ig_service.create_working_order(currency_code='EUR', direction='SELL', epic=elemento[3],
-    #             expiry="-", force_open=False, guaranteed_stop='false',
-    #             level=str(round((up_pred/100+1)*today_df["Close"],3)[0]),  time_in_force='GOOD_TILL_CANCELLED', limit_distance=None, limit_level=str(round((close_pred/100+1)*today_df["Close"],3)[0]),
-    #             order_type='LIMIT', size=str(int(round(10000/((up_pred/100+1)*today_df["Adj Close"])))),  stop_distance=None, good_till_date=None,deal_reference=None,
-    #             stop_level= str(round((up_pred/100+1)*today_df["Close"]*(1+0.012),3)[0]))
+    # if (close_pred[0] < 0)&(cdown/(cup+cdown) <= 0.5):
+    print(close_pred, "DOWN")
+    ig_service.create_working_order(currency_code='EUR', direction='SELL', epic=elemento[3],
+    expiry="-", force_open=False, guaranteed_stop='false',
+    level=str(round((up_pred/100+1)*today_df["Close"],3)[0]),  time_in_force='GOOD_TILL_CANCELLED', limit_distance=None, limit_level=str(round((close_pred/100+1)*today_df["Close"],3)[0]),
+    order_type='LIMIT', size=str(int(round(10000/((up_pred/100+1)*today_df["Adj Close"])))),  stop_distance=None, good_till_date=None,deal_reference=None,
+    stop_level= str(round((up_pred/100+1)*today_df["Close"]*(1+0.012),3)[0]))
 
-    #             print(close_pred, "DOWN")
-    #             ig_service.create_working_order(currency_code='EUR', direction='SELL', epic=elemento[3],
-    #             expiry="-", force_open=False, guaranteed_stop='false',
-    #             level=str(round((close_pred/100+1)*today_df["Close"],3)[0]),  time_in_force='GOOD_TILL_CANCELLED', limit_distance=None, limit_level=str(round((down_pred/100+1)*today_df["Close"],3)[0]),
-    #             order_type='LIMIT', size=str(int(round(10000/((up_pred/100+1)*today_df["Adj Close"])))),  stop_distance=None, good_till_date=None,deal_reference=None,
-    #             stop_level= str(round((up_pred/100+1)*today_df["Close"]*(1+0.06),3)[0]))
+    print(close_pred, "DOWN")
+    ig_service.create_working_order(currency_code='EUR', direction='SELL', epic=elemento[3],
+    expiry="-", force_open=False, guaranteed_stop='false',
+    level=str(round((close_pred/100+1)*today_df["Close"],3)[0]),  time_in_force='GOOD_TILL_CANCELLED', limit_distance=None, limit_level=str(round((down_pred/100+1)*today_df["Close"],3)[0]),
+    order_type='LIMIT', size=str(int(round(10000/((up_pred/100+1)*today_df["Adj Close"])))),  stop_distance=None, good_till_date=None,deal_reference=None,
+    stop_level= str(round((up_pred/100+1)*today_df["Close"]*(1+0.06),3)[0]))
 
     #             cdown += 1
 
