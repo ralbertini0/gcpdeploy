@@ -1,5 +1,6 @@
 
 from pandas_datareader import data as pdr
+import pandas as pd
 import yfinance as yf
 import indicators as ind
 import ta
