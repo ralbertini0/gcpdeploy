@@ -364,48 +364,47 @@ i = 0
 #          (AirLiquide, "Air Liquide", model_AirLiquide, "EC.D.AI.CASH.IP"),
 
 lscac = [
-    (AirLiquide, "Air Liquide", model_AirLiquide, "EC.D.AI.CASH.IP")
-    # ,
-    # (Renault, "Renault", model_Renault, "EC.D.RENA.CASH.IP"),
-    # (Carrefour, "Carrefour", model_Carrefour, "EC.D.CA.CASH.IP"),
-    # (Dassault, "Dassault", model_Dassault, "EC.D.DSY.CASH.IP"),
-    # (Capgemini, "Capgemini", model_Capgemini, "EC.D.CAPFP.CASH.IP"),
-    # (Bouygues, "Bouygues", model_bouygues, "EC.D.EN.CASH.IP"),
-    # (BNPParibas, "BNP Paribas", model_bnp, 'EC.D.BNPP.CASH.IP'),
-    # (SociétéGénérale, "Société Générale", model_sg, "EC.D.GLEFP.CASH.IP"),
-    # (Airbus, "Airbus", model_airbus, "EC.D.EAD.CASH.IP"),
-    # (Unibail, "Unibail", model_Unibail, "EG.D.ULNA.CASH.IP"),
-    # (Vivendi, "Vivendi", model_Vivendi, "EC.D.VIVFP.CASH.IP"),
-    # (Total, "Total", model_Total, "EC.D.FP.CASH.IP"),
-    # (Worldline, "Worldline", model_Worldline, "EC.D.WLNFP.CASH.IP"),
-    # (Teleperformance, "Teleperformance", model_Teleperformance, "EC.D.RCFFP.CASH.IP"),
-    # (Stellantis, "Stellantis", model_Stellantis, "EC.D.STLAFP.CASH.IP"),
-    # (Sodexo, "Sodexo", model_Sodexo, "EC.D.EXHO.CASH.IP"),
-    # (SchneiderElectric, "Schneider Electric", model_SchneiderElectric, "EC.D.SU.CASH.IP"),
-    # (Safran, "Safran", model_Safran, "EC.D.SAFFP.CASH.IP"),
-    # (Publicis, "Publicis", model_Publicis, "EC.D.PUB.CASH.IP"),
-    # (PernodRicard, "Pernod Ricard", model_PernodRicard, "EC.D.RI.CASH.IP"),
-    # (Orange, "Orange", model_Orange, "EC.D.FTEFP.CASH.IP"),
-    # (Michelin, "Michelin", model_Michelin, "EC.D.ML.CASH.IP"),
-    # (Lvmh, "LVMH", model_LVMH, "EC.D.MCA.CASH.IP"),
-    # (Loreal, "L'Oréal", model_Loreal, "EC.D.OR.CASH.IP"),
-    # (Legrand, "Legrand", model_Legrand, "EC.D.LRFP.CASH.IP"),
-    # (Kering, "Kering", model_Kering, "EC.D.PP.CASH.IP"),
-    # (Hermes, "Hermes", model_Hermes, "EC.D.RMSFP.CASH.IP"),
-    # (Essilor, "Essilor", model_Essilor, "EC.D.EF.CASH.IP"),
-    # (Danone, "Danone", model_Danone, "EC.D.DANO.CASH.IP"),
-    # (CréditAgricole, "Crédit Agricole", model_CréditAgricole, "EC.D.ACA.CASH.IP"),
-    # (AXA, "AXA", model_AXA, "EC.D.CS.CASH.IP"),
-    # (Arcelor, "Arcelor", model_Arcelor, "EG.D.MTNA.CASH.IP"),
-    # (Alstom, "Alstom", model_Alstom, "EC.D.ALS.CASH.IP"),
-    # (Engie, "Engie", model_Engie, "EC.D.GSZFP.CASH.IP"),
-    # (Eurofins, "Eurofins", model_Eurofins, "EC.D.ERFFP.CASH.IP"),
-    # (Vinci, "Vinci", model_Vinci, "EC.D.DGFP.CASH.IP"),
-    # (VeoliaEnvironnement, "Veolia", model_VeoliaEnvironnement, "EC.D.VIE.CASH.IP"),
-    # (Thales, "Thales", model_Thales, "EC.D.HOFP.CASH.IP"),
-    # (Stmicroelectronics, "Stmicroelectronics", model_Stmicroelectronics, "EC.D.STM.CASH.IP"),
-    # (Sanofi, "Sanofi", model_Sanofi, "EC.D.SASY.CASH.IP"),
-    # (SaintGobain, "Saint-Gobain", model_SaintGobain, "EC.D.SGO.CASH.IP")
+    (AirLiquide, "Air Liquide", model_AirLiquide, "EC.D.AI.CASH.IP"),
+    (Renault, "Renault", model_Renault, "EC.D.RENA.CASH.IP"),
+    (Carrefour, "Carrefour", model_Carrefour, "EC.D.CA.CASH.IP"),
+    (Dassault, "Dassault", model_Dassault, "EC.D.DSY.CASH.IP"),
+    (Capgemini, "Capgemini", model_Capgemini, "EC.D.CAPFP.CASH.IP"),
+    (Bouygues, "Bouygues", model_bouygues, "EC.D.EN.CASH.IP"),
+    (BNPParibas, "BNP Paribas", model_bnp, 'EC.D.BNPP.CASH.IP'),
+    (SociétéGénérale, "Société Générale", model_sg, "EC.D.GLEFP.CASH.IP"),
+    (Airbus, "Airbus", model_airbus, "EC.D.EAD.CASH.IP"),
+    (Unibail, "Unibail", model_Unibail, "EG.D.ULNA.CASH.IP"),
+    (Vivendi, "Vivendi", model_Vivendi, "EC.D.VIVFP.CASH.IP"),
+    (Total, "Total", model_Total, "EC.D.FP.CASH.IP"),
+    (Worldline, "Worldline", model_Worldline, "EC.D.WLNFP.CASH.IP"),
+    (Teleperformance, "Teleperformance", model_Teleperformance, "EC.D.RCFFP.CASH.IP"),
+    (Stellantis, "Stellantis", model_Stellantis, "EC.D.STLAFP.CASH.IP"),
+    (Sodexo, "Sodexo", model_Sodexo, "EC.D.EXHO.CASH.IP"),
+    (SchneiderElectric, "Schneider Electric", model_SchneiderElectric, "EC.D.SU.CASH.IP"),
+    (Safran, "Safran", model_Safran, "EC.D.SAFFP.CASH.IP"),
+    (Publicis, "Publicis", model_Publicis, "EC.D.PUB.CASH.IP"),
+    (PernodRicard, "Pernod Ricard", model_PernodRicard, "EC.D.RI.CASH.IP"),
+    (Orange, "Orange", model_Orange, "EC.D.FTEFP.CASH.IP"),
+    (Michelin, "Michelin", model_Michelin, "EC.D.ML.CASH.IP"),
+    (Lvmh, "LVMH", model_LVMH, "EC.D.MCA.CASH.IP"),
+    (Loreal, "L'Oréal", model_Loreal, "EC.D.OR.CASH.IP"),
+    (Legrand, "Legrand", model_Legrand, "EC.D.LRFP.CASH.IP"),
+    (Kering, "Kering", model_Kering, "EC.D.PP.CASH.IP"),
+    (Hermes, "Hermes", model_Hermes, "EC.D.RMSFP.CASH.IP"),
+    (Essilor, "Essilor", model_Essilor, "EC.D.EF.CASH.IP"),
+    (Danone, "Danone", model_Danone, "EC.D.DANO.CASH.IP"),
+    (CréditAgricole, "Crédit Agricole", model_CréditAgricole, "EC.D.ACA.CASH.IP"),
+    (AXA, "AXA", model_AXA, "EC.D.CS.CASH.IP"),
+    (Arcelor, "Arcelor", model_Arcelor, "EG.D.MTNA.CASH.IP"),
+    (Alstom, "Alstom", model_Alstom, "EC.D.ALS.CASH.IP"),
+    (Engie, "Engie", model_Engie, "EC.D.GSZFP.CASH.IP"),
+    (Eurofins, "Eurofins", model_Eurofins, "EC.D.ERFFP.CASH.IP"),
+    (Vinci, "Vinci", model_Vinci, "EC.D.DGFP.CASH.IP"),
+    (VeoliaEnvironnement, "Veolia", model_VeoliaEnvironnement, "EC.D.VIE.CASH.IP"),
+    (Thales, "Thales", model_Thales, "EC.D.HOFP.CASH.IP"),
+    (Stmicroelectronics, "Stmicroelectronics", model_Stmicroelectronics, "EC.D.STM.CASH.IP"),
+    (Sanofi, "Sanofi", model_Sanofi, "EC.D.SASY.CASH.IP"),
+    (SaintGobain, "Saint-Gobain", model_SaintGobain, "EC.D.SGO.CASH.IP")
 
 ]
 
@@ -613,4 +612,81 @@ for elemento in lscac:
 
     df_ind.append((name, close_pred[0], up_pred[0], down_pred[0]))
 
+df_cac = pd.DataFrame(df_ind, columns = ["entité", "close_pred", "up_pred", "down_pred"])
+df_cac["entité"]
 
+df_cac["entité"].iloc[22] = "Lvmh"
+df_cac["entité"].iloc[23] = "L'oreal"
+df_cac["entité"].iloc[11] = "TotalEnergies"
+df_cac["entité"].iloc[27] = "EssilorLuxottica"
+df_cac["entité"].iloc[6] = "Bnp Paribas"
+df_cac["entité"].iloc[30] = "Axa"
+df_cac["entité"].iloc[3] = "Dassault Systemes"
+df_cac["entité"].iloc[29] = "Credit Agricole"
+df_cac["entité"].iloc[4] = "CapGemini"
+df_cac["entité"].iloc[40] = "Saint Gobain"
+df_cac["entité"].iloc[31] = "Arcelor Mittal"
+df_cac["entité"].iloc[24] = "Legrand SA"
+df_cac["entité"].iloc[7] = "Societe Generale"
+df_cac["entité"].iloc[36] = "Veolia Environ."
+df_cac["entité"].iloc[34] = "Eurofins Scient."
+df_cac["entité"].iloc[18] = "Publicis Groupe"
+df_cac["entité"].iloc[9] = "Unibail Rodamco Wes"
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from unicodedata import normalize
+
+table_MN = pd.read_html('https://www.abcbourse.com/marches/ponderation_cac40', match='Poids dans le CAC 40')
+poids = table_MN[0].set_index("Société")
+
+df_pred_cac = df_cac.set_index("entité").join(poids).drop("Sodexo")
+
+for i in range(0, len(df_pred_cac)):
+    df_pred_cac["Poids dans le CAC 40"].iloc[i] = float(
+        df_pred_cac["Poids dans le CAC 40"].iloc[i][:-1].replace(",", ".")) / 100
+
+p1 = sum(df_pred_cac["Poids dans le CAC 40"]*df_pred_cac["close_pred"])
+p2 = sum(df_pred_cac["Poids dans le CAC 40"]*df_pred_cac["up_pred"])
+p3 = sum(df_pred_cac["Poids dans le CAC 40"]*df_pred_cac["down_pred"])
+
+print((p3/100+1)*cac40.iloc[-1]["Close"])
+print(p1)
+print((p2/100+1)*cac40.iloc[-1]["Close"])
+print(p2)
+print((p1/100+1)*cac40.iloc[-1]["Close"])
+print(p3)
+
+# if p1 < 0:
+print(p1, "DOWN")
+ig_service.create_working_order(currency_code='EUR', direction='SELL', epic="IX.D.CAC.IFM.IP",
+expiry="-", force_open=False, guaranteed_stop='false',
+level=str(round((p2/100+1)*cac40.iloc[-1]["Close"],3)),  time_in_force='GOOD_TILL_CANCELLED', limit_distance=None, limit_level=str(round((p1/100+1)*cac40.iloc[-1]["Close"],3)),
+order_type='LIMIT', size=str(int(round(10000/((p2/100+1)*cac40.iloc[-1]["Close"])))),  stop_distance=None, good_till_date=None,deal_reference=None,
+stop_level= str(round((p2/100+1)*cac40.iloc[-1]["Close"]*(1+0.012),3)))
+
+if p1 < 0:
+    print(p1, "DOWN")
+    ig_service.create_working_order(currency_code='EUR', direction='SELL', epic="IX.D.CAC.IFM.IP",
+    expiry="-", force_open=False, guaranteed_stop='false',
+    level=str(round((p1/100+1)*cac40.iloc[-1]["Close"],3)),  time_in_force='GOOD_TILL_CANCELLED', limit_distance=None, limit_level=str(round((p3/100+1)*cac40.iloc[-1]["Close"],3)),
+    order_type='LIMIT', size=str(int(round(10000/((p2/100+1)*cac40.iloc[-1]["Close"])))),  stop_distance=None, good_till_date=None,deal_reference=None,
+    stop_level= str(round((p2/100+1)*cac40.iloc[-1]["Close"],3)))
+
+if p1 > 0:
+
+    print(p1, "UP")
+    ig_service.create_working_order(currency_code='EUR', direction='BUY', epic="IX.D.CAC.IFM.IP",
+    expiry="-", force_open=False, guaranteed_stop='false',
+    level=str(round((p1/100+1)*cac40.iloc[-1]["Close"],3)),  time_in_force='GOOD_TILL_CANCELLED', limit_distance=None, limit_level=str(round((p2/100+1)*cac40.iloc[-1]["Close"],3)),
+    order_type='LIMIT', size=str(int(round(10000/((p2/100+1)*cac40.iloc[-1]["Close"])))),  stop_distance=None, good_till_date=None,deal_reference=None,
+    stop_level= str(round((p3/100+1)*cac40.iloc[-1]["Close"],3)))
+
+
+# print(p1, "UP")
+ig_service.create_working_order(currency_code='EUR', direction='BUY', epic="IX.D.CAC.IFM.IP",
+expiry="-", force_open=False, guaranteed_stop='false',
+level=str(round((p3/100+1)*cac40.iloc[-1]["Close"],3)),  time_in_force='GOOD_TILL_CANCELLED', limit_distance=None, limit_level=str(round((p1/100+1)*cac40.iloc[-1]["Close"],3)),
+order_type='LIMIT', size=str(int(round(10000/((p2/100+1)*cac40.iloc[-1]["Close"])))),  stop_distance=None, good_till_date=None,deal_reference=None,
+stop_level= str(round((p3/100+1)*cac40.iloc[-1]["Close"]*(1-0.012),3)))
