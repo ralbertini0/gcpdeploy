@@ -8,13 +8,17 @@ class config_ru(object):
     acc_number = "Z40TAF"
 
 lscac = [
-    (AirLiquide, "Air Liquide", model_AirLiquide, "EC.D.AI.CASH.IP")
+    ("AirLiquide", "Air Liquide", "model_AirLiquide", "EC.D.AI.CASH.IP")
 ]
+
+ig_service = IGService(config_ru.username, config_ru.password, config_ru.api_key, config_ru.acc_type,
+                       acc_number=config_ru.acc_number)
+ig_service.create_session()
 
 for elemento in lscac:
 
 
-    print(close_pred, "DOWN")
+    #print(close_pred, "DOWN")
     ig_service.create_working_order(currency_code='EUR', direction='BUY', epic=elemento[3],
     expiry="-", force_open=False, guaranteed_stop='false',
     level='164', time_in_force='GOOD_TILL_CANCELLED', limit_distance=None, limit_level='167',
